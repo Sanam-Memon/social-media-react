@@ -59,8 +59,9 @@ function SoccerQuiz() {
           <p>{feedback}</p>
         </>
       ) : (
-        <h2>🎉 You completed the quiz!</h2>
+        <h2> You completed the quiz!</h2>
       )}
     </div>
   );
 }
+export default SoccerQuiz;
